@@ -1,0 +1,66 @@
+[
+    
+    {
+        "img":"moonie.png",
+        "title":"Moonie | Chat App",
+        "description":"Web realtime chat with a lot of functions",
+        "descriptionEs":"Aplicacion web completa de chat en tiempo real con muchas funciones",
+        "longDescriptionEs":"",
+        "lenguages":"MONGODB, EXPRESS, REACT, JS, SCSS, TAILWIND",
+        "link":"https://chat.criskop.com"
+    },
+    
+    {
+        "img":"criskopcom.png",
+        "title":"Portafolio Personal",
+        "description":"Personal page to let me know to the world, HELLO WORLD!",
+        "descriptionEs":"Pagina personal para hacerme conocer al mundo, ¡HOLA MUNDO!",
+        "lenguages":"REACT, SCSS, JS",
+        "link":"https://criskop.com"
+    },
+
+    {
+        "img":"juntosesmejor.png",
+        "title":"Juntos Es Mejor",
+        "description":"Custom website for a client",
+        "descriptionEs":"Página web personalizada para un cliente",
+        "lenguages":"Astro, JS",
+        "link":"https://juntosesmejor.info"
+    },
+
+    {
+        "img":"thedasher.png",
+        "title":"TheDasher",
+        "description":"Full stack MERN app for level upload for a game",
+        "descriptionEs":"Aplicación full stack del tipo MERN para la subida de niveles de un juego",
+        "lenguages":"MONGODB, EXPRESS, REACT, JS, SCSS, TAILWIND",
+        "link":"https://thedasher.criskop.com"
+    },
+
+    {
+        "img":"quesodash.png",
+        "title":"QUESO DASH PAGE",
+        "description":"Web app and discord bot for Queso Dash Community themed in Geometry Dash and with a Demon and Challenge lists",
+        "descriptionEs":"Aplicación web y bot de Discord para la comunidad Queso Dash de Geometry Dash, con listas de Demons y Challenges.",
+        "lenguages":"EXPRESS, HTML, SCSS, JS",
+        "link":"https://quesodash.criskop.com"
+    },
+
+    {
+        "img":"refuerzoicfes.png",
+        "title":"REFUERZO ICFES",
+        "description":"Web app for School pointing to the help of development of analysis skills for application of ICFES test",
+        "descriptionEs":"Aplicación web de apoyo al desarrollo de habilidades para las pruebas ICFES en mi colegio.",
+        "lenguages":"EXPRESS, HTML, SCSS, JS",
+        "link":"https://icfes.criskop.com"
+    },
+
+    {
+        "img":"inventarioiti.png",
+        "title":"INVENTARIO ITI",
+        "description":"Web app for School pointing to organize all items in the school in a catalogue style",
+        "descriptionEs":"Aplicación web para mi colegio la cual apunta a la organización de sus elementos estilo catálogo",
+        "lenguages":"EXPRESS, HTML, SCSS, JS",
+        "link":"https://inv.criskop.com"
+    }
+]
