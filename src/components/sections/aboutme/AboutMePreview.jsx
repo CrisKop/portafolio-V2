@@ -204,7 +204,7 @@ function AboutMe() {
             }}
           >
             <motion.img
-              src="/img/fotito.jpeg"
+              src={`${import.meta.env.BASE_URL}/img/fotito.jpeg`}
               alt=""
               animate={{
                 scale: 1.2,

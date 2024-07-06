@@ -115,7 +115,7 @@ function Projects({ isPreview }) {
             transition={{duration: 1}}
           >
             <header>
-              <img src={`/img/${project.img}`} alt={project.title} />
+              <img src={`${import.meta.env.BASE_URL}/img/${project.img}`} alt={project.title} />
             </header>
 
             <main>

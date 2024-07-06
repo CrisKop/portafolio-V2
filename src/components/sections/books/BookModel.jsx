@@ -21,12 +21,12 @@ function BookModel(data) {
               <div className="front">
                 <div 
                 className="cover"
-                style={{ backgroundImage: `url(/img/books/${resourcesFolder}/portada.png)` }}
+                style={{ backgroundImage: `url(${import.meta.env.BASE_URL}/img/books/${resourcesFolder}/portada.png)` }}
                 />
               </div>
               <div 
                 className="left-side"
-                style={{ backgroundImage: `url(/img/books/${resourcesFolder}/borde.png)` }}
+                style={{ backgroundImage: `url(${import.meta.env.BASE_URL}/img/books/${resourcesFolder}/borde.png)` }}
               >
                 <h2>
                   <span>Cristian Prince</span>
@@ -35,7 +35,7 @@ function BookModel(data) {
               </div>
               <div
               className="back"
-              style={{ backgroundImage: `url(/img/books/${resourcesFolder}/contraportada.png)` }}
+              style={{ backgroundImage: `url(${import.meta.env.BASE_URL}/img/books/${resourcesFolder}/contraportada.png)` }}
               >
                 <div className="cover2"></div>
               </div>

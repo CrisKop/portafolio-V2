@@ -75,6 +75,7 @@ function Presentation() {
         <AnimatePresence>
           <motion.div
             className="corona"
+            style={{background: `url('${import.meta.env.BASE_URL}/img/corona.png')`, backgroundSize: 'cover'}}
             key="corona"
             initial="start"
             animate={isInitialAnimationDone ? ["scale", "brightness"] : "show"}
