@@ -19,7 +19,7 @@ function AboutMe() {
         setWindowWidth(window.innerWidth)
 
         if(window.innerWidth < 1250){
-          scrollValues = [0.7, 0.75, 0.8]
+          scrollValues = [0.65, 0.75, 0.8]
         }
     }, [])
 
