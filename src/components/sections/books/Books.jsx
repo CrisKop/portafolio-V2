@@ -3,6 +3,7 @@ import "../../../css/sections/books/books.css";
 import OneBook from "./OneBook";
 import booksList from "../../../assets/json/books.json";
 import { motion } from "framer-motion";
+import LazyLoad from "react-lazyload";
 
 function Books({ isPreview }) {
   const [bookList, setBookList] = useState(booksList);
@@ -39,6 +40,7 @@ function Books({ isPreview }) {
 
   return (
     <>
+    <LazyLoad>
       <motion.section
         style={{
           paddingTop: !isPreview && "calc(4rem + 60px)",
@@ -88,6 +90,7 @@ function Books({ isPreview }) {
           })}
         </motion.section>
       </motion.section>
+      </LazyLoad>
     </>
   );
 }

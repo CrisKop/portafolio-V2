@@ -7,6 +7,7 @@ import {
   useTransform,
 } from "framer-motion";
 import { Link } from "react-router-dom";
+import LazyLoad from "react-lazyload";
 
 function AboutMe() {
   const { scrollYProgress } = useScroll();
@@ -82,6 +83,7 @@ function AboutMe() {
 
   return (
     <>
+    <LazyLoad>
       <motion.section className="aboutme-container">
         <motion.div
           style={{ position: titleposition, y: animationExitTitle }}
@@ -89,6 +91,8 @@ function AboutMe() {
         >
           <h1>SOBRE MÍ</h1>
         </motion.div>
+
+        
         <motion.section className="mainpart">
           <section className="informacion">
             <main className="main">
@@ -204,6 +208,7 @@ function AboutMe() {
             }}
           >
             <motion.img
+            loading="lazy"
               src={`${import.meta.env.BASE_URL}/img/fotito.jpeg`}
               alt=""
               animate={{
@@ -219,6 +224,7 @@ function AboutMe() {
           </motion.div>
         </motion.section>
       </motion.section>
+      </LazyLoad>
     </>
   );
 }

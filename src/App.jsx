@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import NavBar from './components/nav/NavBar';
 import BooksPage from './pages/Books';
+import AboutMePage from './pages/AboutMe';
 import Footer from './components/footer/Footer';
 
 function ScrollToTopOnRedirect() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/pricing" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/aboutme" element={<AboutMePage />} />
         <Route path="/books" element={<BooksPage />} />
         {/* Otras rutas de tu aplicación */}
       </Routes>

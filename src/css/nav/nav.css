@@ -8,7 +8,7 @@
   position: fixed;
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
-  z-index: 20;
+  z-index: 100;
   gap: 0.5rem;
   justify-content: center;
   align-items: center;
@@ -55,8 +55,8 @@
     top: 58px;
     left: 0;
     width: 100vw;
-    -webkit-backdrop-filter: blur(50px);
-            backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px) !important;
+            backdrop-filter: blur(50px) !important;
     background: var(--bg-opacity-300);
     padding: 1rem 2rem !important;
     border-bottom: solid 1px var(--border-2);

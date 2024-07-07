@@ -1,7 +1,7 @@
 [
     
     {
-        "img":"moonie.png",
+        "img":"moonie.webp",
         "title":"Moonie | Chat App",
         "description":"Web realtime chat with a lot of functions",
         "descriptionEs":"Aplicacion web completa de chat en tiempo real con muchas funciones",
@@ -11,7 +11,7 @@
     },
     
     {
-        "img":"criskopcom.png",
+        "img":"criskop.webp",
         "title":"Portafolio Personal",
         "description":"Personal page to let me know to the world, HELLO WORLD!",
         "descriptionEs":"Pagina personal para hacerme conocer al mundo, ¡HOLA MUNDO!",
@@ -20,7 +20,7 @@
     },
 
     {
-        "img":"juntosesmejor.png",
+        "img":"juntosesmejor.webp",
         "title":"Juntos Es Mejor",
         "description":"Custom website for a client",
         "descriptionEs":"Página web personalizada para un cliente",
@@ -29,7 +29,7 @@
     },
 
     {
-        "img":"thedasher.png",
+        "img":"thedasher.webp",
         "title":"TheDasher",
         "description":"Full stack MERN app for level upload for a game",
         "descriptionEs":"Aplicación full stack del tipo MERN para la subida de niveles de un juego",
@@ -38,7 +38,7 @@
     },
 
     {
-        "img":"quesodash.png",
+        "img":"quesodash.webp",
         "title":"QUESO DASH PAGE",
         "description":"Web app and discord bot for Queso Dash Community themed in Geometry Dash and with a Demon and Challenge lists",
         "descriptionEs":"Aplicación web y bot de Discord para la comunidad Queso Dash de Geometry Dash, con listas de Demons y Challenges.",
@@ -47,7 +47,7 @@
     },
 
     {
-        "img":"refuerzoicfes.png",
+        "img":"refuerzoicfes.webp",
         "title":"REFUERZO ICFES",
         "description":"Web app for School pointing to the help of development of analysis skills for application of ICFES test",
         "descriptionEs":"Aplicación web de apoyo al desarrollo de habilidades para las pruebas ICFES en mi colegio.",
@@ -56,7 +56,7 @@
     },
 
     {
-        "img":"inventarioiti.png",
+        "img":"inventarioiti.webp",
         "title":"INVENTARIO ITI",
         "description":"Web app for School pointing to organize all items in the school in a catalogue style",
         "descriptionEs":"Aplicación web para mi colegio la cual apunta a la organización de sus elementos estilo catálogo",

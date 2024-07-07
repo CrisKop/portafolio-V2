@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../../css/sections/projects/projects.css";
 import ProjectsData from "../../assets/json/proyects.json";
 import { motion } from "framer-motion";
+import LazyLoad from "react-lazyload";
 
 function Projects({ isPreview }) {
   const [animationStarted, setAnimationStarted] = useState(false);
@@ -80,6 +81,7 @@ function Projects({ isPreview }) {
   };
 
   return (
+    <LazyLoad>
     <motion.section
       id="experience"
       variants={sectionAnimation}
@@ -115,7 +117,7 @@ function Projects({ isPreview }) {
             transition={{duration: 1}}
           >
             <header>
-              <img src={`${import.meta.env.BASE_URL}/img/${project.img}`} alt={project.title} />
+              <img src={`${import.meta.env.BASE_URL}/img/${project.img}`} alt={project.title} loading="lazy"/>
             </header>
 
             <main>
@@ -144,6 +146,7 @@ function Projects({ isPreview }) {
         )}
       </motion.section>
     </motion.section>
+  </LazyLoad>
   );
 }
 

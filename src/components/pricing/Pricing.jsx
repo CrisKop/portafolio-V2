@@ -4,6 +4,7 @@ import PricingCard from './PricingCard'
 import PricingList from '../../assets/json/pricingCards.json'
 import { Link, useLocation } from 'react-router-dom'
 import { motion } from "framer-motion";
+import LazyLoad from 'react-lazyload'
 
 function Pricing() {
     const [animationStarted, setAnimationStarted] = useState(false);
@@ -64,6 +65,7 @@ function Pricing() {
       };
 
   return (
+    <LazyLoad>
     <motion.section
     ref={pricingRef}
     className="pricing-container"
@@ -90,13 +92,6 @@ function Pricing() {
         animate={animationStarted ? {opacity: 1, y:0} : {opacity: 0}}
         transition={{duration: 1}}
         >¿Quieres una web para ti?</motion.h1>
-        <motion.p
-        variants={sectionAnimation}
-        initial={{opacity: 0, y: 50}}
-        animate={animationStarted ? {opacity: 1, y:0} : {opacity: 0}}
-        transition={{duration: 1}}
-        >Estos son los servicios que puedes adquirir, si te interesa algo que no está aquí
-        , <Link onClick={() => {handleButtonRedirectClick('https://api.whatsapp.com/send?phone=+573178886108&text=Hola%20Cristian,%20estaba%20viendo%20tu%20p%C3%A1gina%20y%20me%20interesa%20adquirir%20un%20servicio%20m%C3%A1s%20espec%C3%ADfico')}}>contáctame por WhatsApp</Link></motion.p>
         </motion.section>
 
       <motion.section
@@ -114,9 +109,26 @@ function Pricing() {
         })}
       </motion.section>
 
+      <motion.section 
+      className="paragraphs"
+      variants={sectionAnimation}
+      initial="start"
+      animate={animationStarted ? "show" : "start"}
+      exit="exit"
+      >
+        <motion.p
+        variants={sectionAnimation}
+        initial={{opacity: 0, y: 50}}
+        animate={animationStarted ? {opacity: 1, y:0} : {opacity: 0}}
+        transition={{duration: 1}}
+        >Estos son los servicios que puedes adquirir, si te interesa algo que no está aquí
+        , <Link onClick={() => {handleButtonRedirectClick('https://api.whatsapp.com/send?phone=+573178886108&text=Hola%20Cristian,%20estaba%20viendo%20tu%20p%C3%A1gina%20y%20me%20interesa%20adquirir%20un%20servicio%20m%C3%A1s%20espec%C3%ADfico')}}>contáctame por WhatsApp</Link></motion.p>
+        </motion.section>
+
 
 
     </motion.section>
+    </LazyLoad>
   )
 }
 
